@@ -5,9 +5,9 @@ const fanContainer = document.querySelector('.fan-container');
 let angle = 0;
 let speed = 0; // current speed
 let targetSpeed = 0; // target speed
-const maxSpeed = 20; // degrees per frame at max
+const maxSpeed = 50; // degrees per frame at max
 const accel = 0.08; // acceleration rate
-const decel = 0.05; // deceleration rate
+const decel = 0.15; // deceleration rate
 
 let isRunning = false;
 let isAnimating = false;
